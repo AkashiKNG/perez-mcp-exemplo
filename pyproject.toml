@@ -1,0 +1,16 @@
+[project]
+name = "perez-mcp-exemplo"
+version = "1.0.0"
+description = "Servidor MCP de exemplo para o Perez OS"
+requires-python = ">=3.10"
+dependencies = ["fastmcp>=2.0"]
+
+[project.scripts]
+perez-mcp-exemplo = "perez_mcp_exemplo.server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["perez_mcp_exemplo"]
