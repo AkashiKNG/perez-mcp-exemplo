@@ -1,0 +1,4 @@
+# Nunca commitar variáveis reais: o valor fica no card do Perez OS.
+.env
+.env.*
+!.env.example
